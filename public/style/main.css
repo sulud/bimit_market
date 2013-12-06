@@ -1,0 +1,68 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+/* 1024 / 3 = 341.333333333333333333 */
+.it-container {
+    width: 1024px;
+    /* background-color: #525050; */
+    margin-right: auto;
+    margin-left: auto;
+}
+.it-header {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+}
+
+.it-wrapper {
+
+    float:left;
+    width: 705px;
+    /* background-color: orange; */
+
+    margin: 10px 10px 0 10px;
+}
+
+.it-wrapper-left {
+    float: left;
+    width:225px;
+    height: 650px;
+    background-color: blue; 
+}
+
+.it-box {
+    float:left;
+    width: 200px;
+    /*background-color: #434242; */
+    height: 150px;
+    margin-left: 7px;
+
+}
+
+.it-labelaDiva {
+    float: left;
+    width: 200px;
+    height: 35px;
+    margin-left: 7px;
+    background: none repeat scroll 0 0 #F06150;
+    color: #F9B6AE;
+    text-align: center;
+}
+.it-mediumWrapper {
+    width: 210px;
+    float: left;
+}
+.it-box img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+
+}
