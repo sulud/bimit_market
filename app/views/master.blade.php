@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Laravel PHP Framework</title>
+    <title>Frame</title>
     @section('includes')
         {{ View::make('includes.includes') }}
     @show
