@@ -8,61 +8,42 @@ body {
 /* 1024 / 3 = 341.333333333333333333 */
 .it-container {
     width: 1024px;
-    /* background-color: #525050; */
+    /*background-color: #525050; */
     margin-right: auto;
     margin-left: auto;
 }
-.it-header {
+
+.it-wrapper-pc {
     width: 1024px;
-    margin-right: auto;
-    margin-left: auto;
-    height: 150px;
+    background-color: #DFE2DB;
+    height: 250px;
+    margin-bottom: 5px;
 }
 
-.it-wrapper {
-
-    float:left;
-    width: 705px;
-    /* background-color: orange; */
-
-    margin: 10px 10px 0 10px;
+.it-wrapper-laptop {
+    width: 1024px;
+    background-color: #F4F5F7;
+    height: 250px; 
+    margin-bottom: 5px;
 }
 
-.it-wrapper-left {
-    float: left;
-    width:225px;
-    height: 650px;
-    background-color: blue; 
+.it-wrapper-mobiteli {
+    width: 1024px;
+    background-color: #E35854;
+    height: 250px;
+    margin-bottom: 5px;
+}
+/* 67BCDB */
+.it-wrapper-tableti {
+    width: 1024px;
+    background-color: #E35854;
+    height: 250px; 
+    margin-bottom: 5px;
 }
 
-.it-box {
-    float:left;
-    width: 200px;
-    /*background-color: #434242; */
-    height: 150px;
-    margin-left: 7px;
-
-}
-
-.it-labelaDiva {
-    float: left;
-    width: 200px;
-    height: 35px;
-    margin-left: 7px;
-    background: none repeat scroll 0 0 #F06150;
-    color: #F9B6AE;
-    text-align: center;
-}
-.it-mediumWrapper {
-    width: 210px;
-    float: left;
-}
-.it-box img {
-    width: 50%;
-    height: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-
+.it-wrapper-details {
+    width: 250px;
+    background-color: #FFFFFF;
+    height: 250px;
+    color: #2B2B2B;
 }
